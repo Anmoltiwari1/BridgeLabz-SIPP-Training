@@ -1,3 +1,4 @@
+package Day1_ProgrammingElements.level1;
 import java.util.Scanner;
 
 public class Assignment {
