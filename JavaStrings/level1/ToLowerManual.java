@@ -1,14 +1,14 @@
-package level1;
+package JavaStrings.level1;
 import java.util.Scanner;
 
-public class ToUpperManual {
+public class ToLowerManual {
 
-    public static String convertToUpper(String text) {
+    public static String convertToLower(String text) {
         String result = "";
         for (int i = 0; i < text.length(); i++) {
             char c = text.charAt(i);
-            if (c >= 'a' && c <= 'z') {
-                result += (char) (c - 32);
+            if (c >= 'A' && c <= 'Z') {
+                result += (char) (c + 32);
             } else {
                 result += c;
             }
@@ -29,12 +29,12 @@ public class ToUpperManual {
         System.out.print("Enter text: ");
         String input = sc.nextLine();
 
-        String manualUpper = convertToUpper(input);
-        String builtInUpper = input.toUpperCase();
+        String manualLower = convertToLower(input);
+        String builtInLower = input.toLowerCase();
 
-        boolean same = compareStrings(manualUpper, builtInUpper);
-        System.out.println("Manual Upper: " + manualUpper);
-        System.out.println("Built-in Upper: " + builtInUpper);
+        boolean same = compareStrings(manualLower, builtInLower);
+        System.out.println("Manual Lower: " + manualLower);
+        System.out.println("Built-in Lower: " + builtInLower);
         System.out.println("Are both same? " + same);
     }
 }

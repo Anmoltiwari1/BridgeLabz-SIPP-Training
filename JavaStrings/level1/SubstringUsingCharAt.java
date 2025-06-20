@@ -1,4 +1,4 @@
-package level1;
+package JavaStrings.level1;
 import java.util.Scanner;
 
 public class SubstringUsingCharAt {

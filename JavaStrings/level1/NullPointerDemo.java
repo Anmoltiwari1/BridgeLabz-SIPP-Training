@@ -1,4 +1,4 @@
-package level1;
+package JavaStrings.level1;
 public class NullPointerDemo {
 
     public static void generateException() {
