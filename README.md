@@ -1,109 +1,60 @@
-# BridgeLabz-SIPP-Training
-# Java Programming Practice Repository 🧠☕️
+# 🧩 BridgeLabz SIPP Training – Core Java
 
-This repository contains a wide variety of Java programs created for practice, focusing on core concepts, problem-solving, and best programming practices.
-
----
-
-## 🗂️ Project Structure
-
-The code is grouped by themes such as **Date and Time**, **String Manipulations**, **Exception Handling**, **Array Operations**, and **Number Utilities**.
+A collection of Java programs created during the **BridgeLabz SIPP (Ship Intelligence & Programming Program)**, covering a wide range of foundational concepts from control flow and data structures to simulations and utilities.
 
 ---
 
-## 📅 Date and Time Programs
-| Program | Description |
-|--------|-------------|
-| TimeZones.java | Display current time in multiple time zones (GMT, IST, PST) using `ZonedDateTime` |
-| DateArithmetic.java | Add 7 days, 1 month, and 2 years to a given date |
-| DateComparison.java | Compare two dates and show if one is before/after/equal |
-| DateFormatting.java | Format date using custom `DateTimeFormatter` patterns |
+## 📂 Project Structure
+
+Organized thematically, each directory contains Java source files related to its concept:
+
+- **Built-In**: Demonstrations of built-in Java classes and utilities  
+- **ControlFlow**: Programs illustrating branching, loops, and decision-making  
+- **Day1_ProgrammingElements**: Core syntax and basic constructs  
+- **Java Array**: Array manipulations and operations  
+- **JavaStrings**: String processing and algorithms
+
+Each theme includes descriptive examples demonstrating common Java workflows and logic.
 
 ---
 
-## 🔠 String Operations
-| Program | Description |
-|--------|-------------|
-| PalindromeCheck.java | Check if a string is a palindrome |
-| AnagramCheck.java | Check if two strings are anagrams |
-| CustomSubstring.java | Manually extract substrings (without using `substring()`) |
-| VowelConsonantCounter.java | Count vowels and consonants in a string |
-| UniqueCharChecker.java | Identify and print unique characters in a string |
+## 📌 Highlights by Theme
+
+### 🧠 Built-In
+- Showcases commonly used Java classes (e.g. `Math`, `Scanner`, `LocalDateTime`, etc.)
+- Utilities for input handling, math operations, and date-time management
+
+### 🔄 Control Flow
+- If-else, switch statements, and loop constructs
+- Examples: number classification, menu-driven interfaces, pattern printing
+
+### 🗓 Day1 – Programming Basics
+- Variable declarations, operators, basic input/output
+- Introductory exercises on arithmetic and simple user interaction
+
+### 🔢 Java Array
+- 1D and 2D array algorithms: reversal, searching, sorting, matrix conversion
+- Practical exercises: splitting odds/evens, mean calculations, vote eligibility
+
+### ✍️ Java Strings
+- Core string manipulations: palindrome check, anagram detection, vowel/consonant counting
+- Custom methods for substring extraction and unique character identification
 
 ---
 
-## ❗ Exception Handling
-| Program | Description |
-|--------|-------------|
-| StringIndexOutOfBounds.java | Handle improper string index access |
-| NullPointerExample.java | Demonstrate catching a `NullPointerException` |
-| NumberFormatExample.java | Convert invalid strings to integers with exception handling |
-| ArrayIndexExceptionDemo.java | Handle index issues while accessing arrays |
+## ✅ Additional Programs (in root)
+
+- **Date & Time Utilities**: Time zones, formatting, date arithmetic, comparisons  
+- **Exception Handling**: Handling null pointers, indexing errors, and format exceptions  
+- **Number Utilities**: Prime check, factorial, Fibonacci, GCD/LCM, OTP generation  
+- **Simulations & Games**: Rock-Paper-Scissors, deck shuffler, calendar printer  
+- **Math & Logic**: BMI calculator, Euclidean distance, temperature conversion
 
 ---
 
-## 📊 Array-Based Programs
-| Program | Description |
-|--------|-------------|
-| VotingEligibility.java | Determine eligibility to vote based on age array |
-| OddEvenSeparator.java | Split an array into odd and even numbers |
-| FactorFinder.java | Print all factors of array elements |
-| 2Dto1DConverter.java | Convert a 2D matrix to a 1D array |
-| MeanHeightCalculator.java | Calculate average height from array data |
+## 🚀 Quickstart
 
----
-
-## 🔢 Number Utility Programs
-| Program | Description |
-|--------|-------------|
-| NumberChecker.java | Includes checks for Prime, Armstrong, Harshad, Automorphic, Neon, Duck, Spy, Buzz, Perfect, Abundant, Deficient, and Strong numbers |
-| OTPGenerator.java | Generate a 4-digit OTP and validate its uniqueness |
-| FactorialRecursion.java | Recursive method to calculate factorial |
-| FibonacciSeries.java | Generate Fibonacci series up to N terms |
-| GCDLCMCalculator.java | Calculate GCD and LCM of two numbers |
-| LeapYearCheck.java | Check if a year is a leap year using logic and `LocalDate` |
-| MaxOfThree.java | Find the maximum among three numbers |
-| GuessTheNumber.java | Number guessing game using `Math.random()` |
-
----
-
-## 🎮 Game/Simulation
-| Program | Description |
-|--------|-------------|
-| RockPaperScissors.java | A Rock-Paper-Scissors game against the computer with score tracking |
-| CardDeckSimulator.java | Simulate a deck of cards, shuffle, and distribute among players |
-| CalendarGenerator.java | Print a calendar month grid for a given year and month |
-
----
-
-## 🧮 Math & Logic
-| Program | Description |
-|--------|-------------|
-| BMI2DArray.java | Calculate BMI for 10 people using 2D array and classify them |
-| EuclideanDistance.java | Compute distance between two points and equation of the line |
-| TemperatureConverter.java | Convert temperatures between Celsius and Fahrenheit |
-
----
-
-## 📌 Best Practices Followed
-- Descriptive variable and method names
-- Static utility methods for reusability
-- Modular and organized code structure
-- User input handling via `Scanner`
-- Use of `Math` and `LocalDate` libraries where appropriate
-
----
-
-## 📚 Requirements
-- Java JDK 8 or higher
-- IDE or terminal with `javac` and `java` support
-
----
-
-## 🏁 How to Run
-
-Compile and run any program using the following command:
-
-```bash
-javac ProgramName.java
-java ProgramName
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Anmoltiwari1/BridgeLabz-SIPP-Training.git
+   cd BridgeLabz-SIPP-Training
