@@ -1,0 +1,17 @@
+public class HotelBooking{
+    String guestName;
+    String roomType;
+    int nights;
+
+
+    public HotelBooking() {
+        this.guestName = "Unknown Guest";
+        this.roomType = "Standard";
+        this.nights = 1; 
+    }
+    public HotelBooking(String guestName,String roomType,int nights){
+        this.guestName= guestName;
+        this.roomType = roomType;     
+        this.nights = nights;
+    }
+}
