@@ -1,0 +1,48 @@
+class Order {
+    String orderId;
+    String orderDate;
+
+    public Order(String orderId, String orderDate) {
+        this.orderId = orderId;
+        this.orderDate = orderDate;
+    }
+
+    public String getOrderStatus() {
+        return "Order Placed";
+    }
+}
+
+class ShippedOrder extends Order {
+    String trackingNumber;
+
+    public ShippedOrder(String orderId, String orderDate, String trackingNumber) {
+        super(orderId, orderDate);
+        this.trackingNumber = trackingNumber;
+    }
+
+    @Override
+    public String getOrderStatus() {
+        return "Order Shipped";
+    }
+}
+
+class DeliveredOrder extends ShippedOrder {
+    String deliveryDate;
+
+    public DeliveredOrder(String orderId, String orderDate, String trackingNumber, String deliveryDate) {
+        super(orderId, orderDate, trackingNumber);
+        this.deliveryDate = deliveryDate;
+    }
+
+    @Override
+    public String getOrderStatus() {
+        return "Order Delivered";
+    }
+}
+
+public class OrderTest {
+    public static void main(String[] args) {
+        DeliveredOrder d = new DeliveredOrder("ORD123", "2025-07-01", "TRK456", "2025-07-03");
+        System.out.println("Order Status: " + d.getOrderStatus());
+    }
+}
