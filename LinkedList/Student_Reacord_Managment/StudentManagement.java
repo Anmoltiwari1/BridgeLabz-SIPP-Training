@@ -1,4 +1,4 @@
-package Student_Reacord_Managment;
+package LinkedList.Student_Reacord_Managment;
 public class StudentManagement {
     public static void main(String[] args) {
         StudentList list = new StudentList();

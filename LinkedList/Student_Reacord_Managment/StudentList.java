@@ -1,4 +1,4 @@
-package Student_Reacord_Managment;
+package LinkedList.Student_Reacord_Managment;
 public class StudentList {
     private Student head;
 
