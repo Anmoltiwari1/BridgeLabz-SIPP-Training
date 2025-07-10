@@ -1,3 +1,5 @@
+package LinkedList;
+
 class ItemNode {
     String name;
     int id, quantity;
