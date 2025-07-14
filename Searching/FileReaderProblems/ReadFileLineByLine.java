@@ -1,0 +1,12 @@
+package Searching.FileReaderProblems;
+import java.io.*;
+
+public class ReadFileLineByLine {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader("sample.txt"));
+        String line;
+        while ((line = reader.readLine()) != null)
+            System.out.println(line);
+        reader.close();
+    }
+}
