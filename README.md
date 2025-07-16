@@ -36,9 +36,22 @@ Make sure you have the following installed:
 
 - Node.js (for full-stack exploration)
 - MongoDB/MySQL (for backend integration)
-- Docker (for advanced projects, not mandatory)
+
+
+
+<details>
+  <summary>🔀 Click to Expand Branch Links</summary>
+
+- 🔗 [Visit `Core-java` Branch](https://github.com/Anmoltiwari1/BridgeLabz-SIPP-Training/tree/Core-java)  
+- 🧠 [Visit `OOPS` Branch](https://github.com/Anmoltiwari1/BridgeLabz-SIPP-Training/tree/OOPS)  
+- 📚 [Visit `DSA` Branch](https://github.com/Anmoltiwari1/BridgeLabz-SIPP-Training/tree/DSA)  
+- 🛠️ [Visit `Workshop` Branch](https://github.com/Anmoltiwari1/BridgeLabz-SIPP-Training/tree/Workshop)
+
+</details>- Docker (for advanced projects, not mandatory)
 
 ---
+
+
 
 ## 🚀 How to Run
 
